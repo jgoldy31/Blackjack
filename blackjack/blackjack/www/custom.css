@@ -1,0 +1,50 @@
+
+
+
+.skin-blue .main-header .navbar {
+background-color: #14855c;
+}
+                                
+
+.skin-blue .main-sidebar {
+ background-color: #23a374;
+}
+ /* logo when hovered */
+.skin-blue .main-header .logo:hover {
+    background-color:#23a374;
+}
+                                
+/* active selected tab in the sidebarmenu */
+ .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+      background-color: #30dc9e;
+  }
+   .skin-blue .main-header .logo {
+     background-color:#23a374;
+ }
+ 
+  /* body */
+.content-wrapper, .right-side {
+
+}
+
+.btn {
+  transition-duration: 0.4s;
+}
+img {
+animation-name:img-ani;
+animation-duration: .9s;
+animation-timing-function: ease-in;
+}
+
+@keyframes img-ani {
+from{opacity:0;}
+to{opacity: 1;}
+}
+
+#dealer_card_one{
+  box-shadow: 10%;
+}
+.btn:hover {
+  background-color: #bcbcbc; /* Green */
+  color: #fc9e9e;
+}
